@@ -1,3 +1,17 @@
+"""
+Script developed for
+
+Image and Video Computing Group at the University of Colorado Boulder, USA and
+Thomas Lab at the University of Colorado Anschutz Medical Campus, USA.
+
+Author - Atharva R. Peshkar.
+
+Command to run this script
+
+python main.py --input <input mesh path> --output <output mesh path> --texture <texture path> --gender <male/female> --verbose
+
+"""
+
 import sys
 import argparse
 import subprocess
