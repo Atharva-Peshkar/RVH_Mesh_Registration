@@ -24,6 +24,13 @@ We provide various methods for registering SMPL or SMPL+H to scans or point clou
 3. [Fit SMPL(H) to point clouds](#fit-smplh-pc)
 4. [Fit SMPL(H)+D to point clouds using IP-Net](#fit-smplh-pc-ipnet)
 
+## Prepare and register SMPL-H model to scan in a single step 
+Running script - [smpl_reg.py](https://github.com/Atharva-Peshkar/RVH_Mesh_Registration/blob/main/smpl_reg.py)
+
+```
+python smpl_reg.py --input <input mesh path> --output <output mesh path> --texture <texture path> --gender <male/female> --verbose
+```
+
 The default model we use is SMPL. In all the following scripts, you can switch to SMPL-H model by adding a command option `-hands`. 
 
 ### <a name="fit-smplh"></a> Fit SMPL(H) to scans
